@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/Kanit-Medium.ttf"); /* IE9 Compat Modes */
+}
+.prelative {
+  position: relative;
+}
+
+.pabsolute {
+  position: absolute;
+}
+
+.fixbacground {
+  height: 200px;
+  width: 100%;
+  background-color: #2f3739;
+  position: absolute;
+  z-index: 1;
+  left: 0px;
+  top: 40px;
+}
+
+.fixbacground-content {
+  margin-left: 270px;
+  height: 200px;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slideleft {
+  width: 250px;
+  height: 842px;
+  background-color: #00a765;
+  position: absolute;
+  z-index: 2;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+.sl-avatar {
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  justify-content: center;
+}
+.sl-avatar-i {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 15px solid #313a3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sl-avatar-image {
+  width: 180px !important;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.sl-object1 {
+  margin-top: 20px;
+}
+.sl-object1-title {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #005936;
+  font-weight: 700;
+  color: #fff;
+}
+
+.lr-header1 {
+  margin-top: 40px;
+  height: 200px;
+}
+
+.object2 {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.object2-title {
+  width: 100%;
+  background-color: #313a3a;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 10px;
+}
+.object2-icon {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  background: #00a765;
+  justify-content: center;
+}
+
+.textLink {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.textLink:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.titleColor {
+  font-family: "Kanit";
+  color: #00a765;
+}
