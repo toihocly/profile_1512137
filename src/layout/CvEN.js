@@ -200,7 +200,7 @@ const CvEN = () => {
               </Panel1>
             </CVObject2>
             <CVObject2 name="SKILLS">
-              <ul>
+              <ul style={{    paddingLeft: 20}}>
                 <li>HTML5 / CSS3 / SCSS / JavaScript</li>
                 <li>using JavaScript library (ReactJS, ReactNative )</li>
                 <li>Server-side programming(Nodejs)</li>
