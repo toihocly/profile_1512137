@@ -8,8 +8,8 @@ function App() {
   return (
     <Router>
       <Switch>
-        {/* <Route exact path="/" render={() => <div>Home</div>} /> */}
-        <Route path="/dinhvatuanhai_en" component={CvEN} />
+         <Route exact path="/" render={() => <div>Home Page</div>} /> 
+        <Route path="/dinhvantuanhai_en" component={CvEN} />
       </Switch>
     </Router>
   );
