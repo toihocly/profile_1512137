@@ -160,13 +160,13 @@ const CVObject2 = (props) => {
   );
 };
 
-const CvEN = () => {
+const CvWebEN = () => {
   return (
     <div className="container prelative" style={{ border: "2px solid #eee" }}>
       <div className="fixbacground">
         <div className="fixbacground-content">
           <h1 style={{ fontFamily: "Kanit" }}>ĐINH VĂN TUẤN HẢI</h1>
-          <h5>F R O N T E N D </h5>
+          <h5>F R O N T E N D - W E B </h5>
         </div>
       </div>
       <div className="row">
@@ -463,161 +463,10 @@ const CvEN = () => {
               </ul>
             </ObjectItem4>
           </ObjectItem3>
-          <ObjectItem3 group="MOBILE REACT NATIVE">
-            <ObjectItem4>
-              <h3 className="titleColor">REACT NATIVE HOME FIX</h3>
-              <h6>3/2020 - 10/2020</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>Content: convert UI from figma to code logic</li>
-                <li>
-                  Position in the project: freelancer Frontend Mobile React
-                  Native for a Korean project
-                </li>
-                <li>
-                  Programming languages: ReactNative, JavaScript, CSS Modules{" "}
-                </li>
-                <li>
-                  Main techniques: react-native-navigation,
-                  @react-native-community/async-storage, react-native-paper,
-                  react-native-swipeout , and more
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">REACT NATIVE TODOLIST</h3>
-              <h6>2019 - 2019</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>Content: New, View, Edit, Check complete, Delete task.</li>
-                <li>Position in the project: FullStack </li>
-                <li>Programming languages: ReactNative, JavaScript </li>
-                <li>
-                  Main techniques: react-navigation,
-                  @react-native-community/async-storage, react-native-paper,
-                  react-native-swipeout{" "}
-                </li>
-                <li>
-                  Link Video Demo:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://youtu.be/u3bIZriwtN0", "_blank")
-                    }
-                  >
-                    https://youtu.be/u3bIZriwtN0
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">REACT NATIVE ANIMATION BASIC</h3>
-              <h6>2019 - 2019</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>Content: Load image local and show its with animation.</li>
-                <li>Position in the project: FullStack</li>
-                <li>Programming languages: ReactNative, JavaScript</li>
-                <li>Main techniques: Animated</li>
-
-                <li>
-                  Link Video Demo:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://youtu.be/0tCfmMQ03iI", "_blank")
-                    }
-                  >
-                    https://youtu.be/0tCfmMQ03iI
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">
-                REACT NATIVE CHAT REALTIME APPLICATION
-              </h3>
-              <h6>2019 - 2019</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>
-                  Content: Realtime chat application, Create account, Login,
-                  Logout, Chat, Change name profile
-                </li>
-                <li>Position in the project: FullStack</li>
-                <li>Programming languages: ReactNative, JavaScript</li>
-                <li>
-                  Main techniques: react-navigation, firebase (data realtime),
-                  react-native-girft-chat
-                </li>
-
-                <li>
-                  Link Video Demo:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://youtu.be/ltY8gPWw98E", "_blank")
-                    }
-                  >
-                    https://youtu.be/ltY8gPWw98E
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">REACT NATIVE FAST WEATHER</h3>
-              <h6>2019 - 2019</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>
-                  Content: Call api openweathermap.org to get weather
-                  information, Search for weather
-                </li>
-                <li>Position in the project: FullStack</li>
-                <li>Programming languages: ReactNative, JavaScript</li>
-                <li>
-                  Main techniques: react-navigation, fetch,
-                  @react-native-community/geolocation
-                </li>
-
-                <li>
-                  Link Video Demo:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://youtu.be/nXaoV6eA_XQ", "_blank")
-                    }
-                  >
-                    https://youtu.be/nXaoV6eA_XQ
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">REACT NATIVE FAST NEWS</h3>
-              <h6>2019 - 2019</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>
-                  Content: Call api newsapi.org to get news information, Search
-                  news, Read news
-                </li>
-                <li>Position in the project: FullStack</li>
-                <li>Programming languages: ReactNative, JavaScript</li>
-                <li>Main techniques: update react-navigation v4, fetch</li>
-
-                <li>
-                  Link Video Demo:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://youtu.be/WiOvv4wbaYs", "_blank")
-                    }
-                  >
-                    https://youtu.be/WiOvv4wbaYs
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-          </ObjectItem3>
         </CVObject2>
       </div>
     </div>
   );
 };
 
-export default CvEN;
+export default CvWebEN;

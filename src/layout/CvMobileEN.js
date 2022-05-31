@@ -160,13 +160,13 @@ const CVObject2 = (props) => {
   );
 };
 
-const CvEN = () => {
+const CvMobileEN = () => {
   return (
     <div className="container prelative" style={{ border: "2px solid #eee" }}>
       <div className="fixbacground">
         <div className="fixbacground-content">
           <h1 style={{ fontFamily: "Kanit" }}>ĐINH VĂN TUẤN HẢI</h1>
-          <h5>F R O N T E N D </h5>
+          <h5>M O B I L E - R E A C T N A T I V E </h5>
         </div>
       </div>
       <div className="row">
@@ -230,7 +230,7 @@ const CvEN = () => {
             </CVObject2>
             <CVObject2 name="SKILLS">
               <ul style={{ paddingLeft: 20 }}>
-                <li>HTML5 / CSS3 / SCSS / JavaScript</li>
+                <li>CSS Modules, JavaScript</li>
                 <li>using JavaScript library (ReactJS, ReactNative )</li>
                 <li>Server-side programming(Nodejs)</li>
                 <li>Git & Github</li>
@@ -288,181 +288,6 @@ const CvEN = () => {
           </ObjectItem4>
         </CVObject2>
         <CVObject2 name="PROJECTS">
-          <ObjectItem3 group="WEB REACTJS">
-            <ObjectItem4>
-              <h3 className="titleColor">FRONT END WEB BASIC</h3>
-              <h6>2018 - 2018</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>Content: Project interface on vehicle product sales. </li>
-                <li>Position in the project: FullStack </li>
-                <li>Programming languages: ReactJS, JavaScript, HTML, CSS </li>
-                <li>Main techniques: react-router-dom </li>
-                <li>
-                  Precondition click to start server:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open(
-                        "https://codesandbox.io/s/j25jm74v0v?file=/src/App.js",
-                        "_blank"
-                      )
-                    }
-                  >
-                    Start Server on CodeSandBox
-                  </span>
-                </li>
-                <li>
-                  Link:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://j25jm74v0v.csb.app/", "_blank")
-                    }
-                  >
-                    https://j25jm74v0v.csb.app/
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">FRONTEND WEB TODOLIST</h3>
-              <h6>2018 - 2018</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>Content: ToDoList interface project</li>
-                <li>Position in the project: FullStack</li>
-                <li>
-                  Programming languages: Rea ReactJS, JavaScript, HTML, SCSS
-                </li>
-                <li>Main techniques: LocalStorage, Material-UI Cores</li>
-
-                <li>
-                  Link:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open(
-                        "https://todolist-c95f0.firebaseapp.com/",
-                        "_blank"
-                      )
-                    }
-                  >
-                    https://todolist-c95f0.firebaseapp.com
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">FRONTEND WEB BANKING</h3>
-              <h6>2018 - 2018</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>Content: The project design interface is used to </li>
-                <li style={{ marginLeft: 20, listStyleType: "disc" }}>
-                  Bank side: Create Users, credit cards for Users, Deposit money
-                  into credit card accounts for Users
-                </li>
-                <li style={{ marginLeft: 20, listStyleType: "disc" }}>
-                  User side: Manage your credit card (including: transfer
-                  function for other accounts, view transaction history)
-                </li>
-                <li>Position in the project: FrontEnd</li>
-                <li>Programming languages: ReactJS, JavaScript, HTML, CSS</li>
-                <li>
-                  Main techniques: react-router-dom, Material-UI Cores,
-                  react-redux, firebase deploy, remotemysql.com
-                </li>
-                <li style={{ color: "red" }}>
-                  <strong>
-                    [Ctrl shift N] run incognito mode if you can't run project
-                  </strong>
-                </li>
-                <li>Link: </li>
-                <li>
-                  [ View FrontEnd]:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://kk5ypj6lj3.csb.app", "_blank")
-                    }
-                  >
-                    https://kk5ypj6lj3.csb.app
-                  </span>
-                </li>
-                <li>
-                  [ Edit FrontEnd]:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open(
-                        "https://codesandbox.io/s/kk5ypj6lj3",
-                        "_blank"
-                      )
-                    }
-                  >
-                    https://codesandbox.io/s/kk5ypj6lj3
-                  </span>
-                </li>
-                <li>
-                  ---------------------------------------------------------------
-                </li>
-                <li>
-                  [ View BackEnd]:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open(
-                        "https://7wvrqn44x6.sse.codesandbox.io/",
-                        "_blank"
-                      )
-                    }
-                  >
-                    https://7wvrqn44x6.sse.codesandbox.io/
-                  </span>
-                  <strong>(Must run BackEnd Before)</strong>
-                </li>
-              </ul>
-            </ObjectItem4>
-            <ObjectItem4>
-              <h3 className="titleColor">
-                APPLICATION SUPPORTING WORKING GROUP
-              </h3>
-              <h6>2019 - 2019</h6>
-              <ul style={{ listStyleType: "none", padding: 0 }}>
-                <li>
-                  Content: TASM is an application that supports job management
-                  in a project. Besides, it also helps users more convenient
-                  with the Chat and Call functions to bring the most convenience
-                  to users. TASM is a combination of many features of individual
-                  applications. It encapsulates the most quintessential things
-                  to create the most unique thing.{" "}
-                </li>
-                <li>
-                  Description: Graduation project, The application will be slow
-                  at the first run by the server for free. You can create an
-                  account and experience the application
-                </li>
-                <li>Position in the project: FrontEnd</li>
-                <li>
-                  Programming languages: ReactJS, JavaScript, HTML, CSS, SCSS,
-                  TypeScript, NodeJS, MongoDB, ...
-                </li>
-                <li>
-                  Main techniques: react-router-dom, Material-UI Cores,
-                  react-redux, PearServer, WebRTC, MinioServer
-                </li>
-                <li>
-                  Link:{" "}
-                  <span
-                    className="textLink"
-                    onClick={() =>
-                      window.open("https://tasmhcmus.herokuapp.com/", "_blank")
-                    }
-                  >
-                    https://tasmhcmus.herokuapp.com/
-                  </span>
-                </li>
-              </ul>
-            </ObjectItem4>
-          </ObjectItem3>
           <ObjectItem3 group="MOBILE REACT NATIVE">
             <ObjectItem4>
               <h3 className="titleColor">REACT NATIVE HOME FIX</h3>
@@ -471,7 +296,7 @@ const CvEN = () => {
                 <li>Content: convert UI from figma to code logic</li>
                 <li>
                   Position in the project: freelancer Frontend Mobile React
-                  Native for a Korean project
+                  Native{" "}
                 </li>
                 <li>
                   Programming languages: ReactNative, JavaScript, CSS Modules{" "}
@@ -620,4 +445,4 @@ const CvEN = () => {
   );
 };
 
-export default CvEN;
+export default CvMobileEN;
